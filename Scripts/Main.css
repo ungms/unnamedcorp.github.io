@@ -1,0 +1,139 @@
+/* Thanks W3schools for some snippets of code. */
+
+/*--- Top Navigation Bar Stuff ---*/
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+    z-index: 9999; /* I do not want ANYTHING to overlap the top navigation bar. */
+    transition: 0.2s;
+}
+  
+.ButtonsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: flex-start;
+
+    align-items: center;
+    text-align: center;
+}
+
+.topnavButtons {
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+}
+
+a img {
+    width: 50px;
+    height: 50px;
+}
+
+.customflexright {
+    display: flex;
+    justify-self: flex-end;
+}
+
+/*--- Custom Image CSS Stuff ---*/
+
+.navbarico {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+/*--- General CSS Stuff ---*/
+
+.top600 {
+position: fixed;
+margin-top: 600px;
+}
+
+.width90 {
+    width: 90%;
+}
+
+.cardcustom {
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+
+    background-color: #D8DEE9;
+}
+
+.customButton {
+    background: #5865F2;
+    width: 10%;
+    color: #FFF;
+    justify-self: right;
+    border-radius: 10px;
+}
+.customButton img{
+    background: #5865F2;
+    width: 100%;
+    color: #FFF;
+    border-radius: 50px;
+}
+
+/*--- Hide scrollbar for Chrome, Safari and Opera ---*/
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /*--- Hide scrollbar for IE, Edge and Firefox ---*/
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .carouselstuff {
+    top: 100%;
+  }
+
+  /*--- A little CSS to do some underline effects ---*/
+
+.underlinecontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: flex-start;
+}
+
+.underlinecontainer a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.underlinecontainer:hover {
+	cursor: pointer;
+}
+
+.underlineanim {
+	position: relative;
+}
+
+.underlineanim::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 1px;
+	background-color: whitesmoke;
+	left: 0%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.underlinecontainer:hover .underlineanim::after {
+	width: 100%;
+	align-self: center;
+}
