@@ -33,7 +33,7 @@ jobs:
       - name: Install TailwindCSS
         run: npm install -D tailwindcss
       - name: Build with TailwindCSS
-        run: npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch
+        run: npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
