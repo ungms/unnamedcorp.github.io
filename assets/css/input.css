@@ -1,3 +1,177 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Thanks W3schools for some snippets of code. */
+
+/*--- Top Navigation Bar Stuff ---*/
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+    z-index: 9999; /* I do not want ANYTHING to overlap the top navigation bar. */
+    transition: 0.2s;
+}
+
+.customflexright {
+    flex-direction: row-reverse;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.alignright {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.topnavButtons {
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+}
+
+.textcenter{
+  text-align: center;
+  color: #FFF;
+}
+
+.resize {
+    object-fit: cover;
+    width: 100%;
+}
+
+/*--- Custom Image CSS Stuff ---*/
+
+.navbarico {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+/*--- General CSS Stuff ---*/
+
+.center{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.width90 {
+    width: 90%;
+}
+
+.cardcustom {
+    border-color: #fff;
+    color: #fff;
+    background-color: #4C566A;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.cardcustom1 {
+    border-color: #fff;
+    padding: 5px;
+}
+
+.customButton {
+    background: #7289DA;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.customButtonimg {
+  height: 30;
+  width: 160;
+}
+
+
+/*--- Hide scrollbar for Chrome, Safari and Opera ---*/
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /*--- Hide scrollbar for IE, Edge and Firefox ---*/
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .carouselstuff {
+    top: 100%;
+  }
+
+  /*--- A little CSS to do some underline effects ---*/
+
+.underlinecontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: flex-start;
+}
+
+.underlinecontainer a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.underlinecontainer:hover {
+	cursor: pointer;
+}
+
+.underlineanim {
+	position: relative;
+}
+
+.underlineanim::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 1px;
+	background-color: whitesmoke;
+	left: 0%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.underlinecontainer:hover .underlineanim::after {
+	width: 100%;
+	align-self: center;
+}
+
+/* Some media stuff which is for mobile compatebility. */
+@media screen and (max-width: 1000px) {
+    .topnavButtons a:not(:first-child) {display: none;}
+    .topnavButtons a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .topnavButtons.responsive {position: relative;}
+    .topnavButtons.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnavButtons.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
