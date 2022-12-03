@@ -9,6 +9,17 @@
 	<link rel="stylesheet" href="./assets/css/output.css">
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<script src="https://browser.sentry-cdn.com/7.23.0/bundle.tracing.min.js" integrity="sha384-SLecuM36xJH2NzNgjBKu5fDtb6NdPvpx7rjBYlUq2HlKcEqblisdxBl8cuy7uiB1" crossorigin="anonymous"></script>
+	<script>
+		Sentry.init({
+			dsn: "https://8d1fb13a83c640e190a79a72cf77afce@sentry.unnamed.services/4",
+			
+			release: "unnamed.games@1.0.0",
+			integrations: [new Sentry.BrowserTracing()],
+			
+			tracesSampleRate: 1.0,
+		});
+	</script>
 </head>
 
 <body style="background: #3B4252" class="hide-scrollbar">
