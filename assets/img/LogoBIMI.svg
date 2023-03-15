@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg version="1.2" width="200" height="200" viewBox="0 0 200 200" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg">
+  <title>bimi-svg-tiny-12-ps</title>
+  <defs id="defs6"/>
+  <g id="g8" transform="matrix(1.3333333,0,0,-1.3333333,0,200)">
+    <rect id="rect522" width="150" height="150" x="0" y="-150" transform="scale(1,-1)" ry="10.787674" fill="#f6f6f6" stroke-width="0.8102" fill-opacity="1"/>
+    <g id="g10">
+      <g id="g12">
+        <g id="g18">
+          <g id="g20"/>
+          <g id="g58">
+            <g id="g56">
+              <g id="g54">
+                <g id="g46"/>
+                <g id="g52">
+                  <g transform="matrix(168,0,0,177,148.01584,17.887695)" id="g50"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="g60">
+      <g id="g62">
+        <g id="g68">
+          <g id="g70"/>
+          <g id="g108">
+            <g id="g106">
+              <g id="g104">
+                <g id="g96"/>
+                <g id="g102">
+                  <g transform="matrix(16.32,0,0,24.5888,53.880001,94.508001)" id="g100"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="g110" transform="translate(61.96,116.9024)">
+          <path d="m 0,0 c 2.817,0 5.1,-4.522 5.1,-10.1 0,-5.578 -2.283,-10.1 -5.1,-10.1 -2.817,0 -5.1,4.522 -5.1,10.1 C -5.1,-4.522 -2.817,0 0,0" id="path112" fill="#231f20" fill-opacity="1" fill-rule="nonzero" stroke="none"/>
+        </g>
+        <g id="g114">
+          <g id="g116"/>
+          <g id="g154">
+            <g id="g152">
+              <g id="g150">
+                <g id="g142"/>
+                <g id="g148">
+                  <g transform="matrix(16.56,0,0,24.9504,79.559998,94.327196)" id="g146"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="g156" transform="translate(87.86,116.9024)">
+          <path d="m 0,0 c 2.817,0 5.1,-4.522 5.1,-10.1 0,-5.578 -2.283,-10.1 -5.1,-10.1 -2.817,0 -5.1,4.522 -5.1,10.1 C -5.1,-4.522 -2.817,0 0,0" id="path158" fill="#231f20" fill-opacity="1" fill-rule="nonzero" stroke="none"/>
+        </g>
+        <g id="g160">
+          <g id="g162"/>
+          <g id="g200">
+            <g id="g198">
+              <g id="g196">
+                <g id="g188"/>
+                <g id="g194">
+                  <g transform="matrix(36.779548,0,0,30.959999,57.570229,32.882397)" id="g192"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="g202" transform="translate(60.1971,50.968)">
+          <path d="m 0,0 5.6,9.699 25.98,-15 -5.6,-9.699 z" id="path204" fill="#231f20" fill-opacity="1" fill-rule="nonzero" stroke="none"/>
+        </g>
+        <g id="g206">
+          <g id="g208"/>
+          <g id="g246">
+            <g id="g244">
+              <g id="g242">
+                <g id="g234"/>
+                <g id="g240">
+                  <g transform="matrix(35.28,0,0,35.28,58.320003,30.722403)" id="g238"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="g248" transform="translate(61.3461,41.7366)">
+          <path d="m 0,0 21.213,21.213 7.92,-7.92 L 7.92,-7.92 Z" id="path250" fill="#231f20" fill-opacity="1" fill-rule="nonzero" stroke="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
